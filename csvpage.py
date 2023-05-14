@@ -94,7 +94,7 @@ for estacion in estaciones:
             document.body.appendChild(downloadButton);
             }
             // Fetch the CSV file and process it
-            fetch("output/'''+estacion+'''.csv")
+            fetch("https://raw.githubusercontent.com/Climatologia-INSIVUMEH/monthly_data_by_station_csv/main/outputcsv/'''+estacion+'''.csv")
             .then(res => res.text())
             .then(text => processData(text));
         </script>
@@ -106,4 +106,3 @@ for estacion in estaciones:
 
         with open(f'{directory}{estacion}.html', 'w') as f:
             f.write(html)
-

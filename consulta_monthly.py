@@ -26,4 +26,9 @@ data=last_30_days_data.groupby(['Nombre'])
 for estacion in estaciones:
     # Filtrar los datos para la estación actual
     data_estacion=data.get_group(estacion)
+    data_estacion = data_estacion.dropna(axis=1, how='all')
+    #data_estacion = data_estacion.drop(labels=['Unnamed: 0'], axis=1)
+    data_estacion = data_estacion.iloc[:, 1:]
+    data_estacion = data_estacion.reset_index(drop=True)
+    data_estacion.index += 1
     data_estacion.to_csv(f"{directory}{estacion}.csv")
