@@ -1,4 +1,4 @@
-,fecha,estacion,Nombre,lluvia,nub,vel_viento,Longitud,Latitud,Altitud
+No.,fecha,estacion,Nombre,lluvia,nub,vel_viento,Longitud,Latitud,Altitud
 1,2023-04-20,INS142201AT,PLAYA GRANDE IXCAN,0.0,2.0,0.0,-90.74017,15.98888,186.0
 2,2023-04-21,INS142201AT,PLAYA GRANDE IXCAN,0.0,4.0,,-90.74017,15.98888,186.0
 3,2023-04-22,INS142201AT,PLAYA GRANDE IXCAN,0.0,5.0,,-90.74017,15.98888,186.0

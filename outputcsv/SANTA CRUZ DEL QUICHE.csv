@@ -1,4 +1,4 @@
-,fecha,estacion,Nombre,lluvia,eva_tan,nub,vel_viento,dir_viento,Longitud,Latitud,Altitud
+No.,fecha,estacion,Nombre,lluvia,eva_tan,nub,vel_viento,dir_viento,Longitud,Latitud,Altitud
 1,2023-05-09,INS140101AT,SANTA CRUZ DEL QUICHE,0.0,0.0,3.0,4.3,9.0,-91.15395,15.05016,2082.0
 2,2023-05-10,INS140101AT,SANTA CRUZ DEL QUICHE,0.0,0.0,4.0,4.3,270.0,-91.15395,15.05016,2082.0
 3,2023-05-11,INS140101AT,SANTA CRUZ DEL QUICHE,1.1,,0.0,0.0,0.0,-91.15395,15.05016,2082.0
