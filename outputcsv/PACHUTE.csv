@@ -1,0 +1,5 @@
+,Unnamed: 0,fecha,estacion,Nombre,lluvia,tmin,tseca,tmax,eva_tan,eva_piche,hum_rel,bri_solar,nub,vel_viento,dir_viento,pre_atmos,tsuelo_5,tsuelo_50,tsuelo_100,rad_solar,Longitud,Latitud,Altitud
+494,494,2023-05-09,INS090401AT,PACHUTE,0.0,,,,,,,,0.0,0.0,0.0,,,,,,-91.57365,14.98341,2682.0
+553,553,2023-05-10,INS090401AT,PACHUTE,0.0,,,,,,,,,,,,,,,,-91.57365,14.98341,2682.0
+612,612,2023-05-11,INS090401AT,PACHUTE,0.0,,,,,,,,,,,,,,,,-91.57365,14.98341,2682.0
+670,670,2023-05-12,INS090401AT,PACHUTE,16.0,,,,,,,,,,,,,,,,-91.57365,14.98341,2682.0

@@ -1,0 +1,5 @@
+,Unnamed: 0,fecha,estacion,Nombre,lluvia,tmin,tseca,tmax,eva_tan,eva_piche,hum_rel,bri_solar,nub,vel_viento,dir_viento,pre_atmos,tsuelo_5,tsuelo_50,tsuelo_100,rad_solar,Longitud,Latitud,Altitud
+506,506,2023-05-09,INS140101AT,SANTA CRUZ DEL QUICHE,0.0,,,,0.0,,,,3.0,4.3,9.0,,,,,,-91.15395,15.05016,2082.0
+565,565,2023-05-10,INS140101AT,SANTA CRUZ DEL QUICHE,0.0,,,,0.0,,,,4.0,4.3,270.0,,,,,,-91.15395,15.05016,2082.0
+624,624,2023-05-11,INS140101AT,SANTA CRUZ DEL QUICHE,1.1,,,,,,,,0.0,0.0,0.0,,,,,,-91.15395,15.05016,2082.0
+682,682,2023-05-12,INS140101AT,SANTA CRUZ DEL QUICHE,13.4,,,,,,,,3.0,2.0,90.0,,,,,,-91.15395,15.05016,2082.0
