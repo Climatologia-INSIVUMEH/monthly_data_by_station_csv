@@ -1,0 +1,37 @@
+
+
+        \documentclass[12pt]{article}
+        \usepackage{booktabs}
+        \usepackage{graphicx}
+        \usepackage[a3paper, margin=2cm , landscape]{geometry}
+
+        \usepackage{eso-pic}
+        \usepackage[ddmmyyyy]{datetime}
+        \newcommand\BackgroundPic{\put(0,0){\parbox[b][\paperheight]{\paperwidth}{\vfill\centering\includegraphics[width=\paperwidth,height=\paperheight,keepaspectratio]{logo.pdf}\vfill}}}
+        
+        \title{DATOS CLIMÁTICOS DE LA ESTACIÓN PACHUTE\\
+        \LARGE{Sección de Climatología}\\
+        \LARGE{Departamento de Investigación y Servicios Meteorológicos}}
+        \date{PDF generado el \today}
+        
+        
+        \begin{document} 
+        \AddToShipoutPicture*{\BackgroundPic}
+        \maketitle
+        \begin{center}
+       \begin{tabular}{lllrrrrrrr}
+\toprule
+{} &      fecha &   Nombre &  lluvia &  nub &  vel\_viento &  dir\_viento &  Longitud &   Latitud &  Altitud \\
+No. &            &          &         &      &             &             &           &           &          \\
+\midrule
+1   & 2023-05-09 &  PACHUTE &     0.0 &  0.0 &         0.0 &         0.0 & -91.57365 &  14.98341 &   2682.0 \\
+2   & 2023-05-10 &  PACHUTE &     0.0 &  NaN &         NaN &         NaN & -91.57365 &  14.98341 &   2682.0 \\
+3   & 2023-05-11 &  PACHUTE &     0.0 &  NaN &         NaN &         NaN & -91.57365 &  14.98341 &   2682.0 \\
+4   & 2023-05-12 &  PACHUTE &    16.0 &  NaN &         NaN &         NaN & -91.57365 &  14.98341 &   2682.0 \\
+\bottomrule
+\end{tabular}
+
+        
+        \end{center}
+        \end{document}
+        

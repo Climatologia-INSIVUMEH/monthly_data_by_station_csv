@@ -1,0 +1,37 @@
+
+
+        \documentclass[12pt]{article}
+        \usepackage{booktabs}
+        \usepackage{graphicx}
+        \usepackage[a3paper, margin=2cm , landscape]{geometry}
+
+        \usepackage{eso-pic}
+        \usepackage[ddmmyyyy]{datetime}
+        \newcommand\BackgroundPic{\put(0,0){\parbox[b][\paperheight]{\paperwidth}{\vfill\centering\includegraphics[width=\paperwidth,height=\paperheight,keepaspectratio]{logo.pdf}\vfill}}}
+        
+        \title{DATOS CLIMÁTICOS DE LA ESTACIÓN SANTA CRUZ DEL QUICHE\\
+        \LARGE{Sección de Climatología}\\
+        \LARGE{Departamento de Investigación y Servicios Meteorológicos}}
+        \date{PDF generado el \today}
+        
+        
+        \begin{document} 
+        \AddToShipoutPicture*{\BackgroundPic}
+        \maketitle
+        \begin{center}
+       \begin{tabular}{lllrrrrrrrr}
+\toprule
+{} &      fecha &                 Nombre &  lluvia &  eva\_tan &  nub &  vel\_viento &  dir\_viento &  Longitud &   Latitud &  Altitud \\
+No. &            &                        &         &          &      &             &             &           &           &          \\
+\midrule
+1   & 2023-05-09 &  SANTA CRUZ DEL QUICHE &     0.0 &      0.0 &  3.0 &         4.3 &         9.0 & -91.15395 &  15.05016 &   2082.0 \\
+2   & 2023-05-10 &  SANTA CRUZ DEL QUICHE &     0.0 &      0.0 &  4.0 &         4.3 &       270.0 & -91.15395 &  15.05016 &   2082.0 \\
+3   & 2023-05-11 &  SANTA CRUZ DEL QUICHE &     1.1 &      NaN &  0.0 &         0.0 &         0.0 & -91.15395 &  15.05016 &   2082.0 \\
+4   & 2023-05-12 &  SANTA CRUZ DEL QUICHE &    13.4 &      NaN &  3.0 &         2.0 &        90.0 & -91.15395 &  15.05016 &   2082.0 \\
+\bottomrule
+\end{tabular}
+
+        
+        \end{center}
+        \end{document}
+        

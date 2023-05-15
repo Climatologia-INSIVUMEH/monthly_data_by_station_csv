@@ -11,7 +11,7 @@ df = df.sort_values("fecha")
 latest_date = df['fecha'].max()
 
 # Obtener el primer día del último mes
-thirty_days_ago = latest_date - pd.Timedelta(days=6)
+thirty_days_ago = latest_date - pd.Timedelta(days=29)
 
 # Filtrar los datos para que solo incluyan los de los últimos 30 días
 last_30_days_data = df[df['fecha'] >= thirty_days_ago]
@@ -27,7 +27,7 @@ for estacion in estaciones:
     # Filtrar los datos para la estación actual
     data_estacion=data.get_group(estacion)
     data_estacion = data_estacion.dropna(axis=1, how='all')
-    #data_estacion = data_estacion.drop(labels=['Unnamed: 0'], axis=1)
+    data_estacion = data_estacion.drop(labels=['estacion'], axis=1)
     data_estacion = data_estacion.iloc[:, 1:]
     data_estacion = data_estacion.reset_index(drop=True)
     data_estacion.index += 1
