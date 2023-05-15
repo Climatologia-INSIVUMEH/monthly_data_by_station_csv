@@ -11,7 +11,7 @@ df = pd.read_csv('database.csv', delimiter=',', header=0)
 
 df[['Nombre']] = df[['Nombre']].replace('_', ' ', regex=True)
 estaciones = df["Nombre"].unique()
-##
+#
 
 
 for estacion in estaciones:
