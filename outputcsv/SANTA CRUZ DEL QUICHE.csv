@@ -1,2 +1,2 @@
-No.,fecha,lluvia,Nombre,nub,vel_viento,dir_viento,lluvia_total,Longitud,Latitud,Altitud
-1,2023-05-12,0.0,SANTA CRUZ DEL QUICHE,3.0,2.0,90.0,13.4,-91.15395,15.05016,2082.0
+No.,fecha,lluvia,Nombre,nub,vel_viento,dir_viento,Fenomenos/0,Fenomenos/1,Fenomenos/2,Fenomenos/3,Fenomenos/4,Fenomenos/5,Fenomenos/6,Fenomenos/7,Fenomenos/8,Fenomenos/9,Fenomenos/10,Longitud,Latitud,Altitud
+1,2023-08-24,4.5,SANTA CRUZ DEL QUICHE,7.0,3.0,180.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,-91.15395,15.05016,2082.0
