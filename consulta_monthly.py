@@ -35,6 +35,7 @@ for estacion in estaciones:
     #data_estacion = data_estacion.dropna(axis=1, how='all')
     #data_estacion = data_estacion.drop(labels=['estacion'], axis=1)
     #data_estacion = data_estacion.iloc[:, 1:]
+    data_estacion = data_estacion.dropna(axis=1, how='all')
     data_estacion = data_estacion.reset_index(drop=True)
     data_estacion.index += 1
     data_estacion=data_estacion.rename_axis("No.")

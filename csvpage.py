@@ -14,7 +14,7 @@ df = df.drop(columnas_a_quitar, axis=1)
 
 df[['Nombre']] = df[['Nombre']].replace('_', ' ', regex=True)
 df['Nombre'] = df['Nombre'].astype(str)
-estaciones = df["Nombre"].unique()
+estaciones = df['Nombre'].unique()
 
 
 
