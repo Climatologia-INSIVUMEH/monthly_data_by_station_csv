@@ -1,4 +1,5 @@
 
+
         <!DOCTYPE html>
         <meta charset="UTF-8">
         <html lang="en">
@@ -46,7 +47,7 @@
             background-color: #005ca9;
             }
         </style>
-        <h1>ESTACIÓN RETALHULEU AREOPUERTO </h1>
+        <h1>ESTACIÓN nan </h1>
         <script type="text/javascript">
             function processData(csv) {
             let data = csv.split(/\r|\n/).map(v => v.split(','));
@@ -70,7 +71,7 @@
                 const url = window.URL.createObjectURL(blob);
                 const a = document.createElement('a');
                 a.setAttribute('href', url);
-                a.setAttribute('download', 'Data_mensual_RETALHULEU AREOPUERTO.csv');
+                a.setAttribute('download', 'Data_mensual_nan.csv');
                 document.body.appendChild(a);
                 a.click();
                 document.body.removeChild(a);
@@ -79,7 +80,7 @@
             document.body.appendChild(downloadButton);
             }
             // Fetch the CSV file and process it
-            fetch("https://raw.githubusercontent.com/Climatologia-INSIVUMEH/monthly_data_by_station_csv/main/outputcsv/RETALHULEU AREOPUERTO.csv")
+            fetch("https://raw.githubusercontent.com/Climatologia-INSIVUMEH/monthly_data_by_station_csv/main/outputcsv/nan.csv")
             .then(res => res.text())
             .then(text => processData(text));
         </script>

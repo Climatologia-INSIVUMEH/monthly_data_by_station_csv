@@ -8,14 +8,21 @@ directory="outputhtml/"
 
 
 df = pd.read_csv('database.csv', delimiter=',', header=0)
+columnas_a_quitar = ['Fenomenos/0','Fenomenos/1','Fenomenos/2','Fenomenos/3','Fenomenos/4','Fenomenos/5','Fenomenos/6','Fenomenos/7','Fenomenos/8','Fenomenos/9','Fenomenos/10']
+df = df.drop(columnas_a_quitar, axis=1)
+
 
 df[['Nombre']] = df[['Nombre']].replace('_', ' ', regex=True)
+df['Nombre'] = df['Nombre'].astype(str)
 estaciones = df["Nombre"].unique()
-#
 
+
+
+#
 
 for estacion in estaciones:
         html = '''
+
         <!DOCTYPE html>
         <meta charset="UTF-8">
         <html lang="en">
