@@ -1,3 +1,2 @@
-No.,fecha,ID,Nombre,lluvia,tmin,tseca,tmax,eva_piche,hum_rel,nub,vel_viento,dir_viento,ID_INSIVUMEH,Latitud,Longitud,Altitud
-1,2023-12-25,INS130601CV,SAN PEDRO NECTA,0.0,7.8,18.7,26.4,3.2,83.0,1.0,7.7,9.0,INSDMCL1306001CONV,15.49459,-91.76244,1641.0
-2,2023-12-26,INS130601CV,SAN PEDRO NECTA,,10.5,19.7,25.4,3.6,85.0,4.0,10.0,360.0,INSDMCL1306001CONV,15.49459,-91.76244,1641.0
+No.,fecha,ID,Nombre,tmin,tseca,tmax,eva_piche,hum_rel,nub,vel_viento,dir_viento,ID_INSIVUMEH,Latitud,Longitud,Altitud
+1,2023-12-26,INS130601CV,SAN PEDRO NECTA,10.5,19.7,25.4,3.6,85.0,4.0,10.0,360.0,INSDMCL1306001CONV,15.49459,-91.76244,1641.0
