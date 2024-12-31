@@ -1,3 +1,2 @@
-No.,fecha,ID,tmin,tseca,tmax,nub,vel_viento,dir_viento,Nombre,lluvia,ID_INSIVUMEH,Latitud,Longitud,Altitud
-1,2024-12-01,INS040301CV,13.0,17.9,23.8,6.0,2.7,270.0,San Martín Jilotepeque,0.0,INSDMCL0403001CONV,14.777474,-90.792558,1800.0
-2,2024-12-02,INS040301CV,12.0,17.1,21.8,8.0,2.0,270.0,San Martín Jilotepeque,,INSDMCL0403001CONV,14.777474,-90.792558,1800.0
+No.,fecha,ID,tmin,tseca,tmax,nub,vel_viento,dir_viento,Nombre,ID_INSIVUMEH,Latitud,Longitud,Altitud
+1,2024-12-02,INS040301CV,12.0,17.1,21.8,8.0,2.0,270.0,San Martín Jilotepeque,INSDMCL0403001CONV,14.777474,-90.792558,1800.0
