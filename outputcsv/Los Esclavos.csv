@@ -1,2 +1,3 @@
-No.,fecha,ID,tmin,tseca,tmax,hum_rel,nub,vel_viento,dir_viento,Nombre,ID_INSIVUMEH,Latitud,Longitud,Altitud
-1,2024-12-01,INS060101CV,22.2,27.9,34.6,80.0,6.0,3.3,90.0,Los Esclavos,INSDMCL0601001CONV,14.2528,-90.2783,737.0
+No.,fecha,ID,tmin,tseca,hum_rel,nub,vel_viento,dir_viento,Nombre,lluvia,ID_INSIVUMEH,Latitud,Longitud,Altitud
+1,2025-01-01,INS060101CV,,,,,,,Los Esclavos,0.0,INSDMCL0601001CONV,14.2528,-90.2783,737.0
+2,2025-01-02,INS060101CV,17.0,18.2,91.0,4.0,2.0,90.0,Los Esclavos,,INSDMCL0601001CONV,14.2528,-90.2783,737.0
