@@ -13,6 +13,7 @@ df = df.drop(columnas_a_quitar, axis=1)
 
 
 df[['Nombre']] = df[['Nombre']].replace('_', ' ', regex=True)
+df.replace('SAN JOSE AREOPUERTO', 'SAN JOSE AEROPUERTO', inplace=True)
 df['Nombre'] = df['Nombre'].astype(str)
 estaciones = df['Nombre'].unique()
 

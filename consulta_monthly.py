@@ -24,6 +24,7 @@ last_30_days_data = df[df['fecha'] >= thirty_days_ago]
 last_30_days_data = last_30_days_data.sort_values("fecha")
 
 last_30_days_data[['Nombre']] = last_30_days_data[['Nombre']].replace('_', ' ', regex=True)
+last_30_days_data.replace('SAN JOSE AREOPUERTO', 'SAN JOSE AEROPUERTO', inplace=True)
 # Obtener la lista de estaciones disponibles en el dataframe
 estaciones = last_30_days_data["Nombre"].unique()
 
