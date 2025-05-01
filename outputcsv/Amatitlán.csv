@@ -1,3 +1,2 @@
-No.,fecha,ID,eva_tan,nub,vel_viento,dir_viento,Nombre,lluvia,ID_INSIVUMEH,Latitud,Longitud,Altitud
-1,2025-04-01,INS011401AT,2.5,7.0,10.0,360.0,Amatitlán,0.0,INSDMCL0114001CONV,14.46785,-90.63039,1205.0
-2,2025-04-02,INS011401AT,2.7,8.0,8.0,20.0,Amatitlán,,INSDMCL0114001CONV,14.46785,-90.63039,1205.0
+No.,fecha,ID,eva_tan,nub,vel_viento,dir_viento,Nombre,ID_INSIVUMEH,Latitud,Longitud,Altitud
+1,2025-04-02,INS011401AT,2.7,8.0,8.0,20.0,Amatitlán,INSDMCL0114001CONV,14.46785,-90.63039,1205.0
